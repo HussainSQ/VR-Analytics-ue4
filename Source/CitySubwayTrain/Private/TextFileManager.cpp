@@ -4,6 +4,11 @@
 #include "TextFileManager.h"
 #include "Misc/FileHelper.h"
 #include "HAL/PlatformFilemanager.h"
+#include <string>
+#include <fstream>
+#include <iostream>
+#include <iomanip>
+
 
 bool UTextFileManager::SaveArrayText(FString SaveDirectory, FString FileName, TArray<FString> SaveText, bool AllowOverWriting = false) {
 
